@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  /* padding: 50px 25px 25px; */
+}
+
+.pic {
+  height: 400px;
+  width: 300px;
+  padding: 25px;
+}
+
+.container h2 {
+  color: rgb(79, 222, 13);
+  padding: 25px;
+  font-size: 45px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.container h4 {
+  padding: 10px 25px;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    background-color: rgb(240, 140, 235);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container h2 {
+    color: blue;
+  }
+  body {
+    background-color: aquamarine;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .container h2 {
+    color: rgb(59, 17, 98);
+  }
+
+  body {
+    background-color: rgb(240, 255, 76);
+  }
+
+  .pic {
+    float: right;
+    padding: 75px 200px 0px 0px;
+  }
+
+  .text-con {
+    width: 50%;
+    float: left;
+  }
+}
